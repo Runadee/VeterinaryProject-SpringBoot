@@ -1,8 +1,8 @@
 package com.edanur.controller;
 
-import dev.patika.VeterinaryApp.dto.request.VaccineRequest;
-import dev.patika.VeterinaryApp.dto.response.VaccineResponse;
-import dev.patika.VeterinaryApp.service.VaccineService;
+import com.edanur.dto.request.VaccineRequest;
+import com.edanur.dto.response.VaccineResponse;
+import com.edanur.service.VaccineService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

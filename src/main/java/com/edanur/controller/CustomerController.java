@@ -1,8 +1,8 @@
 package com.edanur.controller;
 
-import dev.patika.VeterinaryApp.dto.request.CustomerRequest;
-import dev.patika.VeterinaryApp.dto.response.CustomerResponse;
-import dev.patika.VeterinaryApp.service.CustomerService;
+import com.edanur.dto.request.CustomerRequest;
+import com.edanur.dto.response.CustomerResponse;
+import com.edanur.service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
