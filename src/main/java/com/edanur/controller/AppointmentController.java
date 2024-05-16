@@ -1,9 +1,9 @@
 package com.edanur.controller;
 
 
-import dev.patika.VeterinaryApp.dto.request.AppointmentRequest;
-import dev.patika.VeterinaryApp.dto.response.AppointmentResponse;
-import dev.patika.VeterinaryApp.service.AppointmentService;
+import com.edanur.dto.request.AppointmentRequest;
+import com.edanur.dto.response.AppointmentResponse;
+import com.edanur.service.AppointmentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

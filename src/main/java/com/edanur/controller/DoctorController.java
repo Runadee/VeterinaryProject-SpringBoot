@@ -1,9 +1,9 @@
 package com.edanur.controller;
 
 
-import dev.patika.VeterinaryApp.dto.request.DoctorRequest;
-import dev.patika.VeterinaryApp.dto.response.DoctorResponse;
-import dev.patika.VeterinaryApp.service.DoctorService;
+import com.edanur.dto.request.DoctorRequest;
+import com.edanur.dto.response.DoctorResponse;
+import com.edanur.service.DoctorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

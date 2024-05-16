@@ -1,8 +1,8 @@
 package com.edanur.controller;
 
-import dev.patika.VeterinaryApp.dto.request.AvailableDateRequest;
-import dev.patika.VeterinaryApp.dto.response.AvailableDateResponse;
-import dev.patika.VeterinaryApp.service.AvailableDateService;
+import com.edanur.dto.request.AvailableDateRequest;
+import com.edanur.dto.response.AvailableDateResponse;
+import com.edanur.service.AvailableDateService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
