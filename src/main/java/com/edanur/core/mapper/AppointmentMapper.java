@@ -8,7 +8,7 @@ import org.mapstruct.MappingTarget;
 
 import java.util.List;
 
-@Mapper
+@Mapper(componentModel = "spring")
 public interface AppointmentMapper {
     Appointment asEntity(AppointmentRequest appointmentRequest);
     AppointmentResponse asOutput(Appointment appointment);

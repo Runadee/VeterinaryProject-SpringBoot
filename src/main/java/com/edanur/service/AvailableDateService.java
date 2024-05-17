@@ -33,7 +33,6 @@ public class AvailableDateService {
     }
     // Convert the found date to AvailableResponse type (using availableDateMapper) and return it.
 
-
     public AvailableDateResponse create(AvailableDateRequest request) {
         Optional<AvailableDate> isAvailableDateExist = availableDateRepository.findByAvailableDate(request.getAvailableDate());
         if (isAvailableDateExist.isPresent()) {

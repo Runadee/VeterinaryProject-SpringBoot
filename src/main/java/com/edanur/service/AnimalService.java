@@ -2,7 +2,7 @@ package com.edanur.service;
 
 import com.edanur.core.exception.DuplicationException;
 import com.edanur.core.exception.NotFoundException;
-import com.edanur.core.mapper.AnimalMapper;
+import com.edanur.core.mapper.AnimalMapper1;
 import com.edanur.core.utilities.Message;
 import com.edanur.dto.request.AnimalRequest;
 import com.edanur.dto.response.AnimalResponse;
@@ -18,7 +18,7 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class AnimalService {
     private final AnimalRepository animalRepository;
-    private final AnimalMapper animalMapper;
+    private final AnimalMapper1 animalMapper;
 
     public List<AnimalResponse> findAll() {
         return animalMapper.asOutput(animalRepository.findAll());

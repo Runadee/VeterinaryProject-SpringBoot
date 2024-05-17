@@ -4,8 +4,8 @@
 ## PROJECT SUMMARY WITH A YOUTUBE VIDEO
 
 ### Click Below and Watch 
-    
 
+https://www.youtube.com/watch?v=RyJbhaCAFN0
 
 ## Veterinary Management System UML Diagram
 
@@ -78,6 +78,8 @@ Since the project is developed with Spring Boot, you can follow the steps below 
 4. Find the `VeterinaryApp` class and run it.
 
 Once the application is started, you can access the API at [http://localhost:8085](http://localhost:8085).
+
+Swagger Url: http://localhost:8085/swagger-ui/index.html#/
 
 ## Endpoints
 

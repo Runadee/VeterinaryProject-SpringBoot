@@ -8,7 +8,7 @@ import org.mapstruct.MappingTarget;
 
 import java.util.List;
 
-@Mapper
+@Mapper(componentModel = "spring")
 public interface CustomerMapper {
 
     Customer asEntity(CustomerRequest customerRequest); // asEntity method converts from Customer Request class to Customer class
